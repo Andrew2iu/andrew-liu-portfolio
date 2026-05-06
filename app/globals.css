@@ -1,0 +1,25 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #131112;
+  --text-primary: #f2eae0;
+  --accent-primary: #eac26d;
+  --accent-secondary: #ad3b5b;
+}
+
+body {
+  background: #eac26d;
+  color: #131112;
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #eac26d, #ad3b5b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.timeline-dot {
+  display: none !important;
+}
